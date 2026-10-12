@@ -47,9 +47,10 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "https://lighthearted-paletas-0224f1.netlify.app"
-    ],
+    "http://localhost:5173",
+    "https://lighthearted-paletas-0224f1.netlify.app",
+    "https://krish-ai-ui-ywhtpcda.onslate.in"
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
