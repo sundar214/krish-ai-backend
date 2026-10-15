@@ -49,7 +49,7 @@ app.add_middleware(
     allow_origins=[
     "http://localhost:5173",
     "https://lighthearted-paletas-0224f1.netlify.app",
-    "https://krish-ai-ui-ywhtpcda.onslate.in"
+    "https://krishai.onslate.in"
 ],
     allow_credentials=True,
     allow_methods=["*"],
